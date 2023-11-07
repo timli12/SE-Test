@@ -20,6 +20,7 @@ bool isValid(int distance, const vector<int>& x, const vector<int>& y, int n, in
 int main(){
     int n, m;
     int l = 0, r = 1000000000, res = -1;
+    int a = 5;
     cin >> n >> m;
     vector<int> x(n), y(m);
     for (int i = 0; i < n; i++) cin >> x[i];
